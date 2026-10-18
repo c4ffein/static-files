@@ -1,0 +1,1 @@
+Comme annoncé dans le plan, en première partie on va effectivement pouvoir voir mon modèle mental des LLM. Encore une fois : je pense que les résultats que j'obtiens dépendent réellement de cette représentation que je m'en fais, et je pense qu'il y a vraiment un intérêt à comprendre la manière dont ces systèmes fonctionnent pour pouvoir les utiliser au mieux.

@@ -1,0 +1,5 @@
+On va décrire très rapidement le problème en lui-même, sachant que comme tout est en lien, ce sera possible d'aller voir assez facilement pour ceux qui veulent plus de détails.
+
+La première piste, celle des sommets isolés, était fausse. La vraie cause, c'est le chemin de compression de la routine hgraphOrderCp : quand elle compresse le graphe, elle ignore le paramètre ordenum, c'est-à-dire l'endroit de la permutation où elle doit écrire ses résultats. Toutes les autres routines de la même famille en tiennent compte, sauf celle-là. Ce code vient d'une autre routine de Scotch, qui a été copiée-collée puis adaptée, mais ce paramètre en particulier n'a pas été adapté correctement. Et le fix tient en une ligne : on part de ordenum au lieu de zéro.
+
+Il faut un cas assez particulier pour le déclencher : un graphe avec au moins deux composantes, dont une, qui n'est pas la première, se compresse. Une simple paire de sommets suffit. Le bug était présent depuis au moins la version 6, et c'est une corruption silencieuse : la routine renvoie un code de succès.

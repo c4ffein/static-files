@@ -1,0 +1,5 @@
+Un peu plus tard, je vais essayer, cette fois-ci, non plus de faire du property-based testing, mais uniquement de voir si les modèles frontières qui se sont améliorés, sont maintenant capables de trouver des problèmes dans une code base en C. Je précise bien que cette fois-ci, il s'agit pour moi de voir jusqu'où on peut aller sans avoir besoin de nudge, sans utiliser de recettes particulières.
+
+Et donc dans ce cas précis, uniquement à la lecture des tests C, on peut voir qu'il manque des checks. C'est-à-dire que Scotch, c'est une code base assez ancienne, et étant donné qu'avant que les IA arrivent, écrire des tests a toujours été fastidieux, et qu'on sait très bien que le temps passé à écrire des tests est potentiellement du temps qui n'est pas passé sur d'autres sujets, le compromis n'était pas forcément le même.
+
+C'est normal que du vieux code manque généralement de checks. L'avantage de l'IA, c'est qu'elle peut le détecter automatiquement, et possiblement, proposer des ajouts qu'on peut intégrer au projet très facilement.
