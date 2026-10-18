@@ -1,0 +1,1 @@
+Ce qui est intéressant également, c'est que tous ces modèles dépendent de l'architecture des transformers. Donc les transformers, ce sont des réseaux de neurones qui ont été présentés en 2017 dans le papier Attention is all you need. Et réellement, c'est la brique sous les modèles de GPT qui ont été présentés, et tout ce qui a suivi.

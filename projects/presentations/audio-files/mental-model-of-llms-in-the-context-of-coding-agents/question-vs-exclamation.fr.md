@@ -1,0 +1,5 @@
+La spécificité de ma manière d'interagir avec l'agent, elle va jusque dans la ponctuation. C'est-à-dire que très souvent, quand j'envoie des messages à l'agent, je les tourne sous forme de questions.
+
+Et l'intérêt de poser des questions, c'est que, étant donné que lui aussi, il est capable de réflexion, plutôt que de donner un ordre, je vais chercher à avoir des retours. Par exemple, ça, c'est une abréviation que j'utilise souvent, qui est assez commune en développement logiciel. Si on parle sur des forums plutôt américains, c'est « what do you think », en quatre lettres. L'intérêt, c'est que si on met ça à la fin de son message, on va vraiment avoir de la réflexion et pas de l'exécution assez simple.
+
+Et à l'opposé, si jamais j'ai un ordre, effectivement, ça m'arrive de le donner, mais ça va être uniquement sur des choses mécaniques. Et dans ce cas-là, c'est pour gagner du temps. Par exemple, tuer un serveur sur un port et le relancer. Là, je n'ai pas besoin que l'agent passe en processus de réflexion. Je veux une réponse la plus rapide possible.

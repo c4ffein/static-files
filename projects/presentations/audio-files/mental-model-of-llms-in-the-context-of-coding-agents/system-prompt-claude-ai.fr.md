@@ -1,0 +1,5 @@
+On peut prendre comme exemple un system prompt de claude.ai, qui est disponible à tous sur le site d'Anthropic. Ce qu'on voit déjà, c'est que c'est du XML, c'est-à-dire que les modèles ont été suffisamment entraînés pour être capables de saisir la structure dans un document tel que celui-ci.
+
+Une des sections qu'on peut voir, c'est celle du Knowledge Cut-Off. Le Knowledge Cut-Off correspond à la date des données les plus récentes qui ont servi à entraîner le modèle. L'intérêt, c'est qu'il n'est pas forcément lui-même conscient de cette date... Mais si on la fournit dans le system prompt, il va être capable, après une question de l'utilisateur, de savoir s'il doit, entre autres, refaire une recherche sur Internet pour trouver des données récentes, ou essayer de générer la réponse directement, en faisant confiance à cette même génération.
+
+Cela peut paraître surprenant à première vue, mais les modèles récents ont été suffisamment entraînés pour avoir une certaine forme de connaissance d'eux-mêmes.

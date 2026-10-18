@@ -1,0 +1,5 @@
+Parmi les possibilités offertes par les tool calls, il y a la possibilité pour un agent de spawn d'autres agents. Ce qui peut globalement se séparer en deux catégories, celle de la délégation, et celle de l'escalation.
+
+Pour la delegation, un agent va par exemple pouvoir faire de l'exploratoire en parallèle en appelant plusieurs fois le même modèle sur un même sujet, ou utiliser un modèle moins cher sur un scope réduit. Dans le cas où le modèle le plus coûteux d'un provider aurait fait l'architecture générale de la solution, il va peut-être pouvoir déléguer l'implémentation des fonctions au modèle moins coûteux, puisqu'au final, implémenter une fonction en ayant une documentation claire qui est fournie, c'est accessible à n'importe quel modèle maintenant.
+
+A l'inverse, grâce au mécanisme d'escalation, un modèle bas de gamme peut faire appel à un modèle plus haut de gamme. L'intérêt, c'est que via un tool call, on évite de rester bloqué ou de devoir faire appel à l'utilisateur, tout en n'utilisant le modèle le plus onéreux que sur des cas spécifiques.

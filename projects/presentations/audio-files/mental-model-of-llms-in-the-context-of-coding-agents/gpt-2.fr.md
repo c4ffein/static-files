@@ -1,0 +1,1 @@
+GPT-2, sorti en 2019, qui représente à peu près 4600$ de compute à l'entraînement, donne uniquement une réponse qui dit qu'on est le 18 juin 2019, c'est-à-dire que le modèle a repris la date de Jane telle quelle.

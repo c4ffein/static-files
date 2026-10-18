@@ -1,0 +1,1 @@
+Pour cette partie on va démarrer sur un exemple assez simple, c'est-à-dire une question réellement basique qu'on va poser aux GPT des versions 2 à 4. La question est : Jane pense qu'on est une certaine date, John pense qu'on est une autre date, John a raison, on demande quelle date on était 10 jours avant, et il faut respecter un certain format.

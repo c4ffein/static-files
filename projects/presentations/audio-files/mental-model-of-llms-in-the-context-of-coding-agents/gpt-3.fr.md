@@ -1,0 +1,1 @@
+GPT-3, cette fois-ci sorti en 2020, 690 000 dollars de compute à l'entraînement. On voit que la réponse reprend la forme de la question telle quelle, mais nous donne à la fin une réponse totalement aberrante.

@@ -1,0 +1,1 @@
+GPT 3.5 en 2022, cette fois-ci on n'a pas d'informations sur les coûts d'entraînement. Ce qu'on peut observer c'est qu'on a un raisonnement qui paraît correct, mais que le modèle décide malheureusement de prendre la mauvaise date et donc donne également la mauvaise réponse à la fin.

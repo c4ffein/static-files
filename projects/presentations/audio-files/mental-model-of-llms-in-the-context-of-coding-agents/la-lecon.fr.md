@@ -1,0 +1,3 @@
+Pour moi, la leçon à tirer, c'est que Claude fait des erreurs, mais il ne faut pas oublier que les humains aussi, qu'on a tout un historique en entreprise ou dans les labos de recherche, des différentes manières dont les humains peuvent déléguer du travail entre eux.
+
+Le rôle de l'expert, ça a toujours été d'apporter de nouvelles idées et de corriger l'exécution. Et je pense que c'est quelque chose qui peut réellement être frustrant pour certaines personnes, surtout quand on est habitué à faire soi-même, mais malgré tout, c'est beaucoup plus rapide de déléguer à des agents quand on sait déléguer correctement.

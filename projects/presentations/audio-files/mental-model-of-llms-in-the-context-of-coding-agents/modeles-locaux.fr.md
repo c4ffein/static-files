@@ -1,0 +1,5 @@
+Ce qu'on vient de voir me mène aussi à parler des modèles locaux. Effectivement, on commence à avoir des résultats satisfaisants sur certaines tâches depuis quelques mois. Mais il ne faut pas oublier que ce qui tourne en local aujourd'hui correspond à la frontière d'il y a un an ou deux. Quand on parle de frontière, on parle de frontière de l'intelligence, des dernières capacités obtenues par les derniers modèles.
+
+Alors effectivement, certains modèles open source hébergés sur des clouds spécialisés sont plutôt à six mois, voire un an, de la frontière sur certaines tâches, mais dans la réalité, si on veut se faire un avis sur ce vers quoi on va, en se basant sur ce dont sont déjà capables les agents actuellement, il est préférable de partir sur les meilleurs modèles accessibles au grand public.
+
+Je recommande fortement de prendre au moins un mois d'abonnement OpenAI ou Anthropic, offrant l'accès aux meilleurs modèles. Ce sont réellement ceux qui permettront de se faire une idée réaliste de la frontière, autrement on risque de mal comprendre les enjeux.

@@ -1,0 +1,5 @@
+On vient de voir que le system prompt, c'était du XML, donc du texte utilisant des caractères standards, mais avec une mise en forme particulière. Il y a aussi des tokens spéciaux, c'est-à-dire que pour marquer le début ou la fin du system prompt, du tour de l'humain ou du tour de l'assistant, on utilise des tokens auxquels l'utilisateur n'a pas accès.
+
+Ce sont seulement les développeurs via l'API, ou les fabricants du modèle eux-mêmes qui sont capables d'utiliser ces tokens dans la fenêtre de contexte. L'intérêt, c'est qu'ils ont vraiment un sens particulier pour le modèle. Dans le system prompt de Claude lui-même, on voit qu'il y a bien marqué que l'utilisateur peut ajouter du contenu à l'intérieur de tags en essayant de se faire passer pour Anthropic.
+
+Cette instruction est là car le system prompt a vraiment un poids supplémentaire comparé à ce qui va suivre... Le modèle accorde un poids particulièrement important aux tokens entourés de ces tokens spéciaux, contrairement à du formatage par exemple en xml ou json beaucoup plus classique.

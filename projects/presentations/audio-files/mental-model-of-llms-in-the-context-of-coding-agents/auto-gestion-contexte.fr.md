@@ -1,0 +1,7 @@
+À partir du moment où ces choses-là sont possibles, c'est-à-dire l'appel à une fonction, et donc surtout la capacité à récupérer de l'information et à évoluer de manière agentique, il est possible de résoudre de nouveaux problèmes.
+
+Par exemple, notre problème de contexte limité pour chaque modèle. On a maintenant généralement deux mécaniques différentes, celle de la compaction, et celle des memories.
+
+Pour la compaction, lorsque notre contexte atteint une certaine taille, on peut avoir, via un déclenchement automatique, un process qui se lance, possiblement avec le même modèle, mais cette fois-ci avec des instructions liées à la compaction. C'est-à-dire en demandant à générer un nouveau contexte, plus petit, mais reprenant les informations essentielles. Ce que ça permet, c'est de continuer la conversation de manière complètement transparente à l'utilisateur, tout en ayant réduit la taille du contexte nécessaire à ce que la discussion se poursuive.
+
+Un autre concept qui est assez lié, ça va être celui des memories, cette fois-ci lié à l'utilisateur ou au projet. Plutôt que d'essayer de réduire un contexte existant, on va permettre via des tool calls, de stocker les informations qui paraissent importantes dans une base de données externe, ou alors de les récupérer quand il y aura besoin. L'interaction avec le modèle peut alors démarrer avec un contexte préchargé des résumés des informations liées à l'utilisateur ou au projet, dans une version minimale, tout en offrant la possibilité de faire des tool calls pour obtenir les versions complètes.
